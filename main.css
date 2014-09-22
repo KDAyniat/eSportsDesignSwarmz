@@ -22,8 +22,12 @@ body {
     background-repeat: no-repeat;
 
 }
-.navbar{
-
+.navbar-inverse{
+    height: 60px;
+    border-radius: 6px;
+}
+.navbar-fixed-bottom {
+    border-radius: 6px;
 }
 .subheadings {
     font-family: 'orbitron', sans-serif;
@@ -121,4 +125,8 @@ body {
 #contact-form span{
     display:block;
     margin: 0px 0 0 5px;
+}
+
+.dropdown-menu{
+   background-color:#449d44;
 }
