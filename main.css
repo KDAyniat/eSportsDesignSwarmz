@@ -147,6 +147,7 @@ body {
    background-color:#7cac11;
     border-radius: 6px;
     visibility: visible;
+    opacity: 0.8;
 
 }
 .modal-body {
