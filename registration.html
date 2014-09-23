@@ -31,7 +31,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><img class="navlogo" src="images/esports%20design%20swarm%20small.png"></a>
+            <a class="navbar-brand" href="index.html"><img class="navlogo" src="images/esports%20design%20swarm%20small.png"></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -65,8 +65,9 @@
 
             <ul class="nav navbar-nav navbar-right">
                 <li> <a href="#">Register</a></li>
+                <li href="#signin" data-toggle="modal"><a href="#">Sign In</a></li>
 
-                <li class="dropdown">
+              <!--  <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sign In <span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
                         <li><form class="navbar-form navbar-left" role="textbox">
@@ -81,15 +82,13 @@
                             </div>
 
                         </form></li>
-                        <div class="checkbox">
-                            <label>
-                                <input type="checkbox" value="">
-                                Remember me
-                            </label>
-                        </div>
+                        <label class="remember">
+                            <input type="checkbox" value="">
+                            Remember me
+                        </label>
                         <li><a href="#">Something else here</a></li>
                         <li class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
+                        <li><a href="#">Separated link</a></li> -->
                     </ul>
                 </li>
             </ul>
@@ -98,7 +97,7 @@
 </nav>
 
 <div class="container">
-    <div class="jumbotron">
+    <div class="jumbotron" style="background-image: url(images/jumbotronxl.jpg)">
     <div class="row" style="margin-bottom:0px; margin-top:30px;text-align: center;">
         <div class="col-lg-12">
         <h2 style="font-family: 'orbitron', sans-serif"><strong>Become Part of the Swarm:</strong> </h2>
@@ -166,7 +165,13 @@
 <div class = "navbar navbar-default navbar-inverse navbar-fixed-bottom " >
     <div class ="container">
         <p class="navbar-text pull-left">&copy esportsdesignswarm 2014</p>
-
+        <ul class="nav navbar-nav">
+        <p class="navbar-text">Site map:</p>
+            <li><a  href="index.html">Index </a></li>
+           <li> <a href="howitworks.html">How It Works </a></li>
+            <li> <a  href="categories.html">Categories </a></li>
+            <li> <a  href="registration.html">Registration </a></li>
+        </ul>
     </div>
 
 </div>
@@ -177,7 +182,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class= "modal-header">
-                <p>Contact eSports Design Swarm</p>
+                <h3><strong>Contact eSports Design Swarm</strong></h3>
 
             </div>
             <div class="modal-body">
@@ -190,10 +195,7 @@
                         <input type="text" value="Your Name:">
                         <span class="error">*This is not a valid name.</span><span class="empty">*This field is required.</span>
                     </label>
-                    <label class="phone clearfix">
-                        <input type="text" value="Telephone:">
-                        <span class="error">*This is not a valid phone number.</span> <span class="empty">*This field is required.</span>
-                    </label>
+
                     <label class="email clearfix">
                         <input type="text" value="E-mail:">
                         <span class="error">*This is not a valid email address.</span> <span class="empty">*This field is required.</span>
@@ -203,9 +205,9 @@
                         <span class="error">*The message is too short.</span> <span class="empty">*This field is required.</span>
                     </label><br>
                     <div class="modal-footer">
-                        <a href="#" data-type="submit" class="btn btn-danger pull-left" >Submit</a>  &nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="#" data-type="reset" class="btn btn-danger pull-left" >Reset</a>
-                        <a href="#" class="btn btn-danger pull-right" data-dismiss = "modal"> Close</a>
+                        <a href="#" data-type="submit" class="btn btn-success pull-left" >Submit</a>  &nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="#" data-type="reset" class="btn btn-success pull-left" >Reset</a>
+                        <a href="#" class="btn btn-success pull-right" data-dismiss = "modal"> Close</a>
                     </div>
 
                 </form>
@@ -216,6 +218,39 @@
     </div>
 </div>
 
+<div class="modal fade" id="signin" role="dialog">
+
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class= "modal-header">
+                <h3><strong>Sign In:</strong></h3>
+
+            </div>
+            <div class="modal-body">
+                <form id="contact-form">
+
+                    <label class="name clearfix">
+                        <input type="text" value="Username">
+                        <span class="error">*This is not a valid name.</span><span class="empty">*This field is required.</span>
+                    </label>
+
+                    <label class="email clearfix">
+                        <input type="text" value="Password">
+                        <span class="error">*This is not a valid password.</span> <span class="empty">*This field is required.</span>
+                    </label>
+
+                    <div class="modal-footer">
+                        <a href="#" data-type="submit" class="btn btn-success pull-left" >Sign In</a>  &nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="#" class="btn btn-success pull-right" data-dismiss = "modal"> Close</a>
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+</div>
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

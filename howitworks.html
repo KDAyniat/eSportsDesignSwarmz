@@ -64,8 +64,8 @@
 
             <ul class="nav navbar-nav navbar-right">
                 <li> <a href="registration.html">Register</a></li>
-
-                <li class="dropdown">
+                <li href="#signin" data-toggle="modal"><a href="#">Sign In</a></li>
+             <!--   <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sign In <span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
                         <li><form class="navbar-form navbar-left" role="search">
@@ -83,7 +83,7 @@
                         <li><a href="#">Another action</a></li>
                         <li><a href="#">Something else here</a></li>
                         <li class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
+                        <li><a href="#">Separated link</a></li> -->
                     </ul>
                 </li>
             </ul>
@@ -166,7 +166,13 @@
 <div class = "navbar navbar-default navbar-inverse navbar-fixed-bottom " >
     <div class ="container">
         <p class="navbar-text pull-left">&copy esportsdesignswarm 2014</p>
-
+        <ul class="nav navbar-nav">
+            <p class="navbar-text">Site map:</p>
+            <li><a  href="index.html">Index </a></li>
+            <li> <a href="howitworks.html">How It Works </a></li>
+            <li> <a  href="categories.html">Categories </a></li>
+            <li> <a  href="registration.html">Registration </a></li>
+        </ul>
     </div>
 
 </div>
@@ -176,7 +182,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class= "modal-header">
-                <p>Contact Me</p>
+                <h3><strong>Contact eSports Design Swarm</strong></h3>
 
             </div>
             <div class="modal-body">
@@ -189,10 +195,7 @@
                         <input type="text" value="Your Name:">
                         <span class="error">*This is not a valid name.</span><span class="empty">*This field is required.</span>
                     </label>
-                    <label class="phone clearfix">
-                        <input type="text" value="Telephone:">
-                        <span class="error">*This is not a valid phone number.</span> <span class="empty">*This field is required.</span>
-                    </label>
+
                     <label class="email clearfix">
                         <input type="text" value="E-mail:">
                         <span class="error">*This is not a valid email address.</span> <span class="empty">*This field is required.</span>
@@ -202,9 +205,43 @@
                         <span class="error">*The message is too short.</span> <span class="empty">*This field is required.</span>
                     </label><br>
                     <div class="modal-footer">
-                        <a href="#" data-type="submit" class="btn btn-danger pull-left" >Submit</a>  &nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="#" data-type="reset" class="btn btn-danger pull-left" >Reset</a>
-                        <a href="#" class="btn btn-danger pull-right" data-dismiss = "modal"> Close</a>
+                        <a href="#" data-type="submit" class="btn btn-success pull-left" >Submit</a>  &nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="#" data-type="reset" class="btn btn-success pull-left" >Reset</a>
+                        <a href="#" class="btn btn-success pull-right" data-dismiss = "modal"> Close</a>
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="signin" role="dialog">
+
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class= "modal-header">
+                <h3><strong>Sign In:</strong></h3>
+
+            </div>
+            <div class="modal-body">
+                <form id="contact-form">
+
+                    <label class="name clearfix">
+                        <input type="text" value="Username">
+                        <span class="error">*This is not a valid name.</span><span class="empty">*This field is required.</span>
+                    </label>
+
+                    <label class="email clearfix">
+                        <input type="text" value="Password">
+                        <span class="error">*This is not a valid password.</span> <span class="empty">*This field is required.</span>
+                    </label>
+
+                    <div class="modal-footer">
+                        <a href="#" data-type="submit" class="btn btn-success pull-left" >Sign In</a>  &nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="#" class="btn btn-success pull-right" data-dismiss = "modal"> Close</a>
                     </div>
 
                 </form>

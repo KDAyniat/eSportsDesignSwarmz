@@ -8,6 +8,13 @@ body {
     background: linear-gradient(to bottom,  #ffffff 0%,#e0fcbc 100%,#fcfcfc 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fcfcfc',GradientType=0 ); /* IE6-9 */
 
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    font-weight: 700;
+
+}
+.remember {
+    padding: 10px;
 
 }
 .gamelogos {
@@ -23,7 +30,7 @@ body {
 
 }
 .navbar-inverse{
-    height: 60px;
+    height: 55px;
     border-radius: 6px;
 }
 .navbar-fixed-bottom {
@@ -128,5 +135,14 @@ body {
 }
 
 .dropdown-menu{
-   background-color:#449d44;
+   background-color:#7cac11;
+    border-radius: 6px;
+    visibility: visible;
+
+}
+.modal-body {
+   background: linear-gradient(to bottom,  #ffffff 0%,#e0fcbc 100%,#fcfcfc 100%);
+}
+.navbar-text > a{
+    text-decoration: none;
 }
