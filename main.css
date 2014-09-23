@@ -17,6 +17,15 @@ body {
     padding: 10px;
 
 }
+.dropdown-menu .divider{
+    background-color:black;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    color: #262626;
+    text-decoration: none;
+    background-color: grey;
+}
 .gamelogos {
 
 }
