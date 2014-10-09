@@ -11,7 +11,7 @@
 					successCl:'success',
 					successShow:'4000',
 					mailHandlerURL:'bat/MailHandler.php',
-					ownerEmail:'kaelendoughty@yahoo.com',
+					ownerEmail:'info@esportsdesignswarm.com',
 					stripHTML:true,
 					smtpMailServer:'localhost',
 					targets:'input,textarea',
@@ -182,6 +182,6 @@
 })(jQuery)
 $(window).load(function(){
 	$('#contact-form').forms({
-		ownerEmail:'kaelendoughty@yahoo.com'
+		ownerEmail:'info@esportsdesignswarm.com'
 	})
 })

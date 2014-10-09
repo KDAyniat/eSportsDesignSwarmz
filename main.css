@@ -10,7 +10,7 @@ body {
 
     font-family: 'Orbitron', sans-serif;
     font-weight: 700;
-    font-weight: 700;
+
 
 }
 .remember {
@@ -25,7 +25,25 @@ body {
     color: #262626;
     text-decoration: none;
     background-color: grey;
+
 }
+
+.dropdown-menu{
+    background-color:#7cac11;
+    border-radius: 6px;
+    visibility: visible;
+    opacity: 0.9;
+
+}
+
+
+.modal-body {
+    background: linear-gradient(to bottom,  #ffffff 0%,#e0fcbc 100%,#fcfcfc 100%);
+}
+.navbar-text > a{
+    text-decoration: none;
+}
+
 .gamelogos {
 
 }
@@ -34,8 +52,7 @@ body {
     margin:10px;
 }
 .jumbotron {
-    background-image: url('images/jumbotronbig.jpg');
-    background-repeat: no-repeat;
+
 
 }
 .navbar-inverse{
@@ -143,16 +160,99 @@ body {
     margin: 0px 0 0 5px;
 }
 
-.dropdown-menu{
-   background-color:#7cac11;
-    border-radius: 6px;
-    visibility: visible;
-    opacity: 0.8;
+#hiwdiv {
+        text-align: justify;
 
 }
-.modal-body {
-   background: linear-gradient(to bottom,  #ffffff 0%,#e0fcbc 100%,#fcfcfc 100%);
+
+a, a:hover, a:focus, a:visited{
+    text-decoration:none;
+    color: #262626;
+
 }
-.navbar-text > a{
-    text-decoration: none;
+
+#loginform {
+    padding:0px 0 0 0;
+    position: relative;
+    width: 300px;
 }
+#loginform .success
+{
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left:0;
+    z-index: 99;
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 0;
+}
+#loginform textarea, #loginform input {
+    margin:0;
+    box-shadow: 0 0 3px #b6b4ad;
+    font-size:13px;
+    border:none;
+    color:#424242;
+    padding:9px 12px;
+    outline:none;
+    position:relative;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#fff;
+    border-radius: 5px;  }
+
+
+#loginform input {
+    width:277px;
+}
+#loginform textarea {
+    overflow:auto;
+    width:357px;
+    height:146px;
+    resize:none;
+    float:left;
+    margin: 0 0 0 0;
+}
+
+#loginform label {
+    display:inline-block;
+    position: relative;
+    min-height:50px;
+}
+#loginform label.message {
+    display:block;
+    padding-bottom:0;
+}
+#loginform .link2 {
+    margin-left:30px;
+}
+#loginform .error, #contact-form .empty, #contact-form .success {display:none;}
+#loginform .error, #contact-form .empty {
+    text-align:left;
+    color:red;
+    font-size:11px;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+#loginform .buttons2 {
+    overflow:hidden;
+    text-align:right;
+    position:relative;
+    clear:both;
+    padding-top:12px;
+}
+#loginform .buttons2 a {
+    cursor:pointer;
+    margin-top:0;
+    text-align:center;
+}
+#loginform span{
+    display:block;
+    margin: 0px 0 0 5px;
+}
+
+
+
